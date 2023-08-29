@@ -1,0 +1,204 @@
+#+title: Repetition af vektorfunktioner
+#+subtitle: 
+#+author: Matematik A
+#+date: Vibenshus Gymnasium
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[left=2cm,top=1cm,right=2cm,bottom=1.5cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+I jeres kommende matematikprojekt omkring vektorfunktioner, kaldet Projekt Tivoli, er der nogle minimumskrav til indholdet i teoriafsnittet. Disse er:
+
+- Hvordan adskiller en vektorfunktion sig fra en almindelig funktion?
+- Uafhængige og afhængige variable for en vektorfunktion.
+- Stedvektorer.
+- Hastighedsvektorer.
+- Accelerationsvektorer.
+- En vektorfunktions skæringspunkter med akserne.
+- Tangenter til banekurven, herunder vandrette og lodrette tangenter.
+ 
+For at repetere dette, kommer vi derfor i dag til at arbejde med 3 forskellige øvelser, nemlig:
+
+- Svar-bazar
+- Opgaveregning
+- Læsning og formidling af bevis.
+ 
+\newpage
+
+* Svar-bazar
+
+** Hvad adskiller en vektorfunktion fra en almindelig funktion?
+
+*Navn:*
+
+*Svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+** Hvornår og hvordan kan man omskrive en almindelig funktion til en vektorfunktion?
+
+*Navn:*
+
+*Svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+** Hvornår og hvordan kan man omskrive en vektorfunktion til en almindelig funktion?
+
+*Navn:*
+
+*Svar:*
+
+\newpage 
+
+** Hvis man kender udtrykket for /sted/​vektorfunktionen for en bevægelse, hvordan kan man så bestemme henholdsvis /hastigheds/​- og /accelerations/​-vektorfunktionen?
+
+*Navn:*
+
+*Svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+** Hvor er angrebspunktet, og hvad er retningerne for henholdsvis /sted/​-, /hastigheds/​- og /accelerations/​-vektorfunktionerne, som beskriver en typisk  bevægelse af et objekt? 
+
+*Navn:*
+
+*Svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+
+** Hvordan bestemmes koordinaterne til skæringspunkterne mellem en stedvektorfunktion og henholdsvis x-aksen og y-aksen?
+
+*Navn:*
+
+*Svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+
+** Hvordan bestemmer man punkterne på en vektorfunktion, hvor der er henholdsvis lodrette og vandrette tangenter?
+
+*Navn:*
+
+*svar:*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+** Hvordan bestemmer man en ligning for en tangent til banekurven, hvis man kender parameterværdien?
+
+*/Navn:/*
+
+*/Svar:/*
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+$$\phantom{a}$$
+
+\newpage
+
+* Opgaver
+
+Opgaverne løses på traditionel vis. Husk at skrive forklaringer til jeres løsninger, så det kommer til at ligne en besvarelse til den skriftlige eksamen.
+
+** Opgave 1
+
+En ret linje er givet ved vektorfunktionen:
+
+$$\vec{r}(t) = \begin{pmatrix} t -1 \\ 3+ 2 \cdot t\end{pmatrix}$$
+
+1. Vis ved beregning, at linjen skærer y-aksen når $t=1$.
+
+2. Vis ved beregning, at linjen skærer x-aksen når $t=-1.5$.
+
+3. Opstil en ligning for linjen af typen $y=a \cdot x + b$.
+
+** Opgave 2
+
+En kurve er givet ved udtrykket:
+
+$$2 \cdot x^2 - 4 \cdot x + 3 - 2\cdot t = 0$$
+
+1. Omskriv udtrykket til en vektorfunktion.
+
+2. Afbild den fremkomne vektorfunktion i et koordinatsystem.
+
+** Opgave 3
+
+En partikels banekurve er givet ved vektorfunktionen:
+
+$$\vec{r}(t) = \begin{pmatrix} t^2 - 4 \\ t^3 - 6\cdot t +8 \end{pmatrix}$$
+
+1. Afbild banekurven i et koordinatsystem.
+
+2. Afbild de punkter, der har følgende stedvektorer:
+
+    $\vec{r}(-3)$, $\vec{r}(-2.5)$, $\vec{r}(0)$, $\vec{r}(1)$, $\vec{r}(2.5)$.
+
+3. Vis, at punktet $P=(2,8)$ passeres to gange. Det vil sige, at der er to forskellige værdier for $t$, hvor $\vec{r}(t_p) = \begin{pmatrix} 2 \\ 8 \end{pmatrix}$.
+
+4. Opstil en vektorfunktion $\vec{v}(t)$, der beskriver partiklens hastighed.
+
+5. Opstil en funktionsforskrift for farten $v(t) = \lvert \vec{v}(t)\rvert$.
+
+6. Angiv koordinaterne til det punkt $P$, hvor hastighedsvektoren $\vec{v}(t)$ er "lodret".
+
+7. Hvad er farten i dette punkt?
+
+\newpage
+
+* Læse- og bevisøvelse
+
+Den sidste øvelse har fokus på læsning og formidling af et bevis. Beviset omhandler bestemmelse af længden af en banekurve i et parameterinterval. Sætningen lyder som følger:
+
+#+begin_quote
+Længden af en banekurve for en vektorfunktion $\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$ i intervallet $[a\,;\,b]$ findes som 
+
+$$ L = \int_a^b \sqrt{ x'(t)^2 + y'(t)^2} \, dt$$
+#+end_quote
+
+- I skal finde sammen i jeres makkerpar.
+
+- Den højeste person i jeres makkerpar skal læse beviset her https://bevissamling.systime.dk/?id=p285.
+
+- Den anden person skal læse beviset her https://bevissamling.systime.dk/?id=p287.
+
+- Begge personer skal prøve at kunne beviset uden ad.
+
+- Den laveste person fremfører sin version af beviset for den højeste person. Der skal både tegnes og fortælles ligesom var det til en mundtlig eksamen. Det må gerne foregå på et lille stykke af tavlen. Hvis dette ikke er muligt, så udfør beviset på papir.
+
+- Den højeste person fremfører sin version af beviset for den laveste person under de samme vilkår.
+

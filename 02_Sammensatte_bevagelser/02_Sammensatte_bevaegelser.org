@@ -1,0 +1,127 @@
+#+title: Vektorfunktioner
+#+subtitle: Sammensatte bevægelser og formelsamling
+#+author: Matematik A
+#+date: Vibenshus Gymnasium
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+I dette skriv skal I arbejde med sammensatte bevægelser og udarbejdelse af en formelsamling. 
+
+Første øvelse hedder "Stop op og giv svar", hvor I skal læse højt og forklare for hinanden. Formålet med øvelsen er mundtlig formidling (til hinanden) samt forståelse af matematisk tekst. 
+
+Anden øvelse har jeg valgt at kalde "Duvals fire rum (Sproglige og visuelle registre)". Formålet er at gøre jer opmærksomme på fire forskellige måder at repræsentere den samme matematiske problemstilling. 
+
+Den tredje og sidste øvelse hedder såmænd blot formelsamling. Dette er en skriftlig øvelse, så I bliver fortrolige med ligningseditorer og får ført nogle matematiske formler igennem jeres kroppe i stedet for blot at kopiere.
+
+* Stop op og giv svar
+
+Når I læser en naturvidenskabelig tekst, er det vigtigt, at I læser langsomt. Alt, hvad I læser, skal kunne sige en lyd inde i hovedet. Dette gælder også ligningerne og graferne. Nogle gange er det nødvendigt at stoppe op undervejs og forholde sig til det, man lige har læst.
+
+*I jeres makkerpar, skal I arbejde med følgende tekster:*
+
+- [[https://mathtxa.systime.dk/?id=365][Sammensatte bevægelser]]
+- [[https://mathtxa.systime.dk/?id=p366][Cykloiden]]
+- [[https://mathtxa.systime.dk/?id=p367][Cardioiden]]
+
+I skal skiftes til at læse op og svare på spørgsmål.
+
+Begynd med [[https://mathtxa.systime.dk/?id=365][Sammensatte bevægelser]]
+
+- Makker 1 :: Læs første afsnit. 
+
+- Makker 2 :: Læs andet afsnit. 
+
+- Makker 1 :: Læs tredje og sidste afsnit efter billedet.
+
+Skift nu til [[https://mathtxa.systime.dk/?id=p366][Cykloiden]].
+
+- Makker 2 :: Læs det første afsnit til og med figuren 
+  - Forklar hvad der sker på figuren. Hvad repræsenterer henholdsvis den blå, røde og sorte farve på grafen?
+
+- Makker 1 :: Læs afsnittet under figuren til og med sætningen "Banekurven for $\vec{r}(t)$ kaldes en /cykloide/".
+  - Forklar, hvorfor henholdsvis $P_x$ og $P_y$ er opstillet som de er. 
+  - Hvordan kan bevægelsen opdeles i en translatorisk og en rotationel del?
+  - Hvorfor er der minus foran $r\cdot\cos (t)$ og $r \cdot sin(t)$ i henholdsvis $P_x$ og $P_y$?
+
+- Makker 2 :: Læs resten af teksten.
+  - Hvad vil det sige, at to størrelser er proportionelle?
+  - Hvad er en proportionalitetsfaktor?
+  - Hvilken matematisk størrelse dækker $\theta$ over?
+  - Hvad vil det sige for bevægelserne at $\omega = 1$?
+
+Skift nu til [[https://mathtxa.systime.dk/?id=p367][Cardioiden]].
+
+- Makker 1 :: Læs fra toppen af siden til og med den anden figur.
+  - Forklar figur 2.23. Hvad repræsenterer henholdsvis den blå, røde og grå farve?
+
+- Makker 2 :: Læs fra efter den anden figur til og med den tredje figur.
+  - Forklar hvordan vektorerne $\overrightarrow{CP}(t)$ og $\overrightarrow{OC}(t)$ fremkommer.
+  - Hvorfor er vinkelhastigheden for $\overrightarrow{OC}(t)$ det halve af $\overrightarrow{CP}(t)$?
+  - Forklar ud fra reglerne for vektorregning hvorfor den sammensatte bevægelse af de to cirkler, blot er summen af de to enkeltstående bevægelser. 
+
+- Makker 1 :: Læs fra under projekteksemplet til og med den fjerde figur.
+
+- Makker 2 :: Læs fra "Stedvektoren til punktet $P$..." til inden "Banekurven for punkt $P$...".
+  - Forklar ligningerne.
+
+- Makker 1 :: Læs fra "Banekurven for punkt $P$..." til enden af siden.
+  - Svar på spørgsmålet: "Hvad sker der, hvis vi firedobler vinkelhastigheden $\omega_2$?"
+
+
+* Duvals fire rum (Sproglige og visuelle registre)
+
+I de følgende opgaver skal I arbejde med oversættelse mellem Duvals fire rum, som kan ses på efterfølgende figur
+
+[[file:img/duval.png]]
+
+- Det er jeres opgave at udfylde de tomme felter. 
+
+- Når I har besvaret alle tre opgaver, overvej med jer selv, hvilke overgange, som er "lette" og hvilke, som er "svære".
+
+\newpage
+
+** Duvalopgave 1
+
+Udfyld de tomme felter. I må gerne skrive mellemregninger og forklaringer ved siden af. Felterne er mest tænkt til at indikere, hvilke af Duvals fire rum, som er udfyldt og hvilke I skal oversætte til.
+
+[[file:img/duvalopgave_1.png]]
+
+
+\newpage
+
+** Duvalopgave 2
+
+Udfyld de tomme felter. I må gerne skrive mellemregninger og forklaringer ved siden af. Felterne er mest tænkt til at indikere, hvilke af Duvals fire rum, som er udfyldt og hvilke I skal oversætte til.
+
+[[file:img/duvalopgave_2.png]]
+
+
+** Duvalopgave 3
+
+Udfyld de tomme felter. I må gerne skrive mellemregninger og forklaringer ved siden af. Felterne er mest tænkt til at indikere, hvilke af Duvals fire rum, som er udfyldt og hvilke I skal oversætte til.
+
+[[file:img/duvalopgave_3.png]]
+
+\newpage
+
+* Formelsamling til vektorfunktioner
+
+Jeres sidste opgave er, at skrive jeres egen formelsamling til vektorfunktioner.
+
+I kan formelsamlingen fra matematikbogen her: https://mathtxa.systime.dk/?id=p386, og lade jer inspirere af den.
+
+Det vigtigste er dog, *at I selv skriver det hele ind. Formlerne skal skrives i en formeleditor og teksten skal I også selv skrive. Ikke noget med at copy-paste eller tager screenshots.*
+
+Pointen med denne opgave er, at I får set alle formlerne og får bearbejdet dem ved selv at skrive dem ind.
+
+
+

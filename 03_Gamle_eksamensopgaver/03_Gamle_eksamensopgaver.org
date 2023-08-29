@@ -1,0 +1,44 @@
+#+title: Vektorfunktioner
+#+subtitle: Gamle eksamensopgaver
+#+author: Matematik A
+#+date: Vibenhus Gymnasium
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+* Gamle eksamensopgaver om vektorfunktioner
+
+På de følgende sider vil I finde en række af gamle eksamensopgaver omhandlende vektorfunktioner. Jeg forventer /ikke/, at I skal nå at gennemarbejde alle opgaverne. Det jeg til gengæld forventer af jer, er at I skriver opgavebesvarelserne ind på computer, med fyldestgørende forklaringer, mellemregninger og grafer. *Fokus er altså dels på at løse opgaven, og dels at skabe fortrolighed med formeleditor og geogebra/CAS.*
+
+- I skal arbejde sammen i makkerpar og makkerskabsgrupper. Et makkerpar vælger én af opgaverne og det andet makkerpar vælger en anden af opgaverne.
+- Hvert makkerpar udarbejder en skriftlig løsning til deres opgave, som beskrevet tidligere.
+- Efter endt løsning, skal makkerparrene **mundtligt** præsentere deres løsninger for hinanden i makkerskabsgrupperne.
+ 
+[[file:img/opg1.png]]
+[[file:img/opg2.png]]
+[[file:img/opg3.png]]
+[[file:img/opg4.png]]
+[[file:img/opg5.png]]
+
+
+\newpage
+* Formelsamling til vektorfunktioner
+
+Jeres sidste opgave er, at skrive jeres egen formelsamling til vektorfunktioner.
+
+I kan formelsamlingen fra matematikbogen her: https://mathtxa.systime.dk/?id=p386, og lade jer inspirere af den.
+
+Det vigtigste er dog, *at I selv skriver det hele ind. Formlerne skal skrives i en formeleditor og teksten skal I også selv skrive. Ikke noget med at copy-paste eller tager screenshots.*
+
+Pointen med denne opgave er, at I får set alle formlerne og får bearbejdet dem ved selv at skrive dem ind.
+
+
+

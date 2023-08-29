@@ -1,0 +1,110 @@
+#+title: Svar-bazar om vektorer
+#+subtitle: 
+#+author: Matematik A 
+#+date: Vibenshus Gymnasium
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+*Opskriv koordinaterne for vektoren $\vec{a}$, som bevæger sig 2 mod højre og 5 nedad*
+
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Indtegn vektoren $\vec{v} = \begin{pmatrix} 5 \\ -2 \end{pmatrix}$ i et skitseret koordinatystem*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Beregn længden af $\vec{b} = \begin{pmatrix}-3\\4 \end{pmatrix}$*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Beregn koordinaterne til sumvektoren af $\vec{a}= \begin{pmatrix} 2\\3 \end{pmatrix}$ og $\vec{b}=\begin{pmatrix} -3 \\ 4 \end{pmatrix}$*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Indtegn sumvektoren af $\vec{a}= \begin{pmatrix} 2\\3 \end{pmatrix}$ og $\vec{b}=\begin{pmatrix} -3 \\ 4 \end{pmatrix}$ vha vektorernes parallollogram*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Beregn koordinaterne til differensvektoren mellem $\vec{a}= \begin{pmatrix} 2\\3 \end{pmatrix}$ og $\vec{b}=\begin{pmatrix} -3 \\ 4 \end{pmatrix}$*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Beregn skalarproduktet mellem vektorerne $\vec{a} = \begin{pmatrix} 2 \\ 3 \end{pmatrix}$ og $\vec{b} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export
+
+*Beregn vinklen mellem vektorerne $\vec{a} = \begin{pmatrix} 2 \\ 3 \end{pmatrix}$ og $\vec{b} = \begin{pmatrix} 1 \\ 4 \end{pmatrix}$*
+
+*Navn:*
+
+*Svar:*
+
+#+begin_export latex
+$\phantom{a}$\\
+$\phantom{a}$\\
+$\phantom{a}$\\
+#+end_export

@@ -1,0 +1,128 @@
+#+title: Vektorfunktioner
+#+subtitle: Rette linjer og cirkler
+#+author: Matematik A
+#+date: Vibenshus Gymnasium
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+
+I dette skriv skal vi arbejde med rette linjer og cirkler som vektorfunktioner.
+
+Først vil I blive introduceret til den rette linje som vektorfunktion. Derefter skal I regne to simple opgaver om netop dette. Dernæst vil I blive introduceret til en jævn cirkelbevægelse beskrevet som en vektorfunktion, hvorefter I igen skal regne to simple opgaver.
+
+Efter opgaveregningen skal vi arbejde med "animationer" af vektorfunktioner i geogebra. Jeg demonstrerer i første omgang og siden prøver I selv.
+
+Til sidst skal I arbejde med bestemmelse af hastigheds- og accelerationsvektorerne for en jævn cirkelbevægelse ved hjælp af differentialregning. Dette kommer til at foregå i jeres makkerpar og mundtligt.
+                                                                             
+* Den rette linje som vektorfunktion
+#+caption: En ret linje som vektorfunktion.
+#+attr_latex: :width 0.5\linewidth
+[[file:img/ret_linje.png]]
+
+En ret linje gennem et fast punkt $P_0 = (x_0, y_0)$ og med retningsvektoren:
+
+$$\vec{r}(t) = \begin{pmatrix} r_x \\ r_y \end{pmatrix}$$
+
+har parameterfremstillingen(vektorfunktionen):
+
+$$\overrightarrow{OP}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} r_x \cdot t + x_0 \\ r_y \cdot t + y_0 \end{pmatrix}\..$$
+
+* Simple regneopgaver om rette linjer
+
+Husk at vise formlen, som skal bruges. Skriv forklarende tekst. Medtag mellemregninger.
+
+** Opgave 1
+
+En ret linje $L$ går gennem punkterne $A=(4, -1)$ og $B=(1, 2)$.
+
+1. Opstil en vektorfunktion for $L$.
+
+** Opgave 2
+
+En ret linje med hældningstallet $a=2.5$ skærer x-aksen i punktet $P_x = (4, 0)$.
+
+1. Opstil en parameterfremstilling for linjen.
+ 
+   
+** Opgave 3
+En ret linje er givet ved vektorfunktionen:
+
+$$\vec{r}(t) = \begin{pmatrix} t -1 \\ 3 + 2\cdot t \end{pmatrix}$$
+
+1. Beregn linjens skæring med y-aksen.
+2. Beregn linjens skæring med x-aksen.
+3. Undersøg om punktet $P=(-3,7)$ er beliggende på $\vec{r}(t)$.
+4. Omskriv vektorfunktionen til en almindelig funktion af typen $f(x) = a \cdot x + b$.
+   
+\newpage
+
+* Introduktion til cirklen
+
+#+caption: En cirkel som en vektorfunktion. Figuren er lånt fra jeres ibog https://mathtxa.systime.dk. Læg mærke til at vinkelhastighed og faseforskydning ikke er medtaget.
+#+attr_latex: :width 0.5\linewidth
+[[file:img/2021-08-05_16-20-30_screenshot.png]]
+
+
+Et objekt som udfører en jævn cirkelbevægelse kan beskrives med følgende generelle parameterfremstilling:
+
+$$\overrightarrow{OP}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} x_0 \\ y_0 \end{pmatrix} + \begin{pmatrix} r \cdot \cos \left( \omega \cdot t + \phi \right) \\ r \cdot \sin \left(\omega \cdot t + \phi \right) \end{pmatrix} \.,$$
+
+hvor $P_0 = (x_0, y_0)$ er centrumskoordinatet til cirklen, $r$ er radius i cirklen, $\omega$ er vinkelhastigheden og $\phi$ er faseforskydningen.
+
+\newpage
+
+* Simple regneopgaver om cirkler
+
+Husk at vise formlen, som skal bruges. Skriv forklarende tekst. Medtag mellemregninger.
+
+** Opgave 4
+
+Et objekt bevæger sig rundt på periferien af en cirkel givet ved ligningen:
+
+$$(x-4)^2 + (y+2)^2 = 25\,.$$
+
+med en vinkelhastighed på 3 s^{-1} og en faseforskydning på $- \frac{\pi}{2}$.
+
+1. Omskriv ligningen til en vektorfunktion.
+2. Afbild vektorfunktionen i et koordinatsystem.
+
+** Opgave 5
+
+En cirkelbue er beskrevet ved vektorfunktionen:
+
+$$\vec{r} (t) = \begin{pmatrix} 1 - \cos(t) \\ 3 + \sin(t) \end{pmatrix} \, , \, \text{hvor } 1 \leq t \leq 2 \,.$$
+
+1. Beregn buens radius.
+2. Beregn koordinaterne til buens centrum.
+3. Beregn koordinaterne til buens endepunkter.
+4. Beregn koordinaterne til det punkt, hvor $t=1.8$.
+
+Et punkt på buen har koordinaterne $(x,y) = (0.733,y)$.
+
+5. [@5] Beregn punktets tilhørende $t$​-værdi.
+6. Afbild alle oplysninger om cirkelbuen og punktet i et koordinatsystem.
+
+* Animation i geogebra af vektorfunktioner
+
+Jeg viser jer, hvordan banekurver og stedvektorer kan tegnes og animeres i geogebra. Efterfølgende er det jeres opgave, at animere jeres løsninger til opgaverne.
+
+* Udledning af hastigheds- og accelerationsvektorer for den jævne cirkelbevægelse vha. differentiation på tavlen i makkerpar
+
+Her i den sidste øvelse skal I finde sammen i jeres makkerpar. Øvelsen går ud på mundtlig formidling til jeres makkere, ligesom da I skulle gennemgå beviser for hinanden. I skal arbejde med den jævne cirkelbevægelse beskrevet med vektorfunktionen:
+
+$$\overrightarrow{OP}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} x_0 \\ y_0 \end{pmatrix} + \begin{pmatrix} r \cdot \cos \left( \omega \cdot t + \phi \right) \\ r \cdot \sin \left(\omega \cdot t + \phi \right) \end{pmatrix} \..$$
+
+- Makker 1 :: Bestem et udtryk for hastighedsvektorfunktionen ved at differentiere stedvektorfunktionen. Undersøg den indbyrdes orientering af henholdsvis stedvektorfunktionen og hastighedsvektorfunktionen gennem brug at det, som hedder tværvektorer.
+
+- Makker 2 :: Bestem et udtryk for accelerationsvektorfunktionen ved at differentiere hastighedsvektorfunktionen, som makker 1 lige har udledt. Undersøg den indbyrdes orientering af stedvektorfunktionen og nu accelerationsvektorfunktionen. Overvej, hvad modsatte vektorer er.
+
+
+
