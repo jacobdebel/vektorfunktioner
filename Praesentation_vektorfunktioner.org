@@ -449,7 +449,79 @@ $$\vec{r}(t) = \begin{pmatrix} \cos (t) \\ e^{0.1 t}\end{pmatrix}\,,\, \text{hvo
 6. Bestem de værdier af $t$, hvor tangenthældningen er 1. Brug CAS.
 7. Bestem koordinaterne til de punkter, hvor tangenthældningen er 1.
 * Sammensatte bevægelser
+#+attr_html: :height 400px
+[[./img/cirkler_sammensat_2.gif]]
+** Nyt dokument
+#+attr_html: :height 500px
+[[./02_Sammensatte_bevagelser/02_Sammensatte_bevaegelser.pdf][file:./img/sammensatte_bevaegelser_forside.png]]
+** Stop op og giv svar
+I skal arbejde i makkerpar, hvor I skiftes til at læse op. I skal i fællesskab besvare en række spørgsmål.
+
+Find nærmere vejledning på side 1 og 2 i det nye dokument.
+** Duvals fire rum
+#+attr_html: :height 500px
+[[./img/duval.png]]
+** Duvalopgave 1
+#+attr_html: :height 500px
+[[./img/duvalopgave_1.png][file:./img/duvalopgave_1.png]]
+** Duvalopgave 2
+#+attr_html: :height 500px
+[[./img/duvalopgave_2.png][file:./img/duvalopgave_2.png]]
+** Duvalopgave 3
+#+attr_html: :height 500px
+[[./img/duvalopgave_3.png][file:./img/duvalopgave_3.png]]
+** Bonusopgave
+Hvad er den vildeste sammensatte bevægelse, I kan finde på?
+
+Åbn geogebra og eksperimenter på livet løs.
 * Afstand mellem banekurve og punkt
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/afstand_mellem_banekurve_og_punkt.png][file:./img/afstand_mellem_banekurve_og_punkt.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Afstand mellem banekurven for vektorfunktionen
+
+$$\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$$
+
+og punktet
+
+$$P_0 = (x_0 , y_0)$$
+
+kan bestemmes på følgende måde
+
+$$\boxed{d(t) = \sqrt{\left( x(t) - x_0 \right)^2+\left( y(t)-y_0 \right)^2}}$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Huh???
+#+reveal_html: <div class="column" style="float:left; width: 50%">
+#+begin_export html
+<iframe
+width="600"
+height="400"
+src="./ggb/Afstand_mellem_banekurve_og_punkt.html"
+title=""
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div class="column" style="float:right; width: 50%">
+bla bla
+#+reveal_html: </div>
+
 * Areal mellem x-akse og banekurve
 * Kurvelængde langs banekurve
 * Skæring mellem banekurver
+
+* TIVOLI!
+[[./img/tivoli.jpg]]
+
+** Projekt
+#+attr_html: :height 500px
+[[./Projekt_Tivoli_vektorfunktioner.pdf][file:./img/projekt_tivoli.png]]

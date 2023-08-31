@@ -104,6 +104,7 @@ Udfyld de tomme felter. I må gerne skrive mellemregninger og forklaringer ved s
 
 [[file:img/duvalopgave_2.png]]
 
+\newpage
 
 ** Duvalopgave 3
 
@@ -117,7 +118,7 @@ Udfyld de tomme felter. I må gerne skrive mellemregninger og forklaringer ved s
 
 Jeres sidste opgave er, at skrive jeres egen formelsamling til vektorfunktioner.
 
-I kan formelsamlingen fra matematikbogen her: https://mathtxa.systime.dk/?id=p386, og lade jer inspirere af den.
+I kan se formelsamlingen fra matematikbogen her: https://mathtxa.systime.dk/?id=p386, og lade jer inspirere af den.
 
 Det vigtigste er dog, *at I selv skriver det hele ind. Formlerne skal skrives i en formeleditor og teksten skal I også selv skrive. Ikke noget med at copy-paste eller tager screenshots.*
 
