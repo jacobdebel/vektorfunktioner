@@ -140,7 +140,7 @@ Hvordan kan det nu være?
 ** Tilbage til opgaverne fra før
 
 Bestem t-værdierne samt koordinaterne til skæringspunkterne for hhv x- og y-aksen for de to vektorfunktioner i opgave 1 og 2 fra tidligere.
-* Undersøg om punkt er på en banekurve
+* Punkt på banekurve?
 #+reveal_html: <div style="font-size: 60%;">
 #+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
 #+reveal_html: <div>
@@ -159,7 +159,7 @@ kan man undersøge om $P$ ligger på banekurven for $\vec{r}(t)$ vha følgende p
 - Sæt $P_x = x(t)$ (eller $P_y = x(t)$)
 - Isoler $t$ i ligningen.
 - Indsæt den fundne værdi for $t$ i $y(t)$ ($x(t)$).
-- Hvis y'værdien (x'værdien) stemmer overens med punktets værdi, så ligger punktet på banekurven.
+- Hvis y-værdien (x-værdien) stemmer overens med punktets værdi, så ligger punktet på banekurven.
 #+reveal_html: </div>
 #+reveal_html: </div>
 
@@ -171,7 +171,7 @@ kan man undersøge om $P$ ligger på banekurven for $\vec{r}(t)$ vha følgende p
 ** Hvilke er almindelige funktioner?
 
 #+attr_html: :height 500px
-[[file:img/2023-08-28_21-45-54_screenshot.png]]
+[[file:img/2023-08-28_21-45-54_screenshot.png][file:img/2023-08-28_21-45-54_screenshot.png]]
 
 ** Ingen loops etc
 #+reveal_html: <div style="font-size: 60%;">
@@ -496,7 +496,8 @@ $$\boxed{d(t) = \sqrt{\left( x(t) - x_0 \right)^2+\left( y(t)-y_0 \right)^2}}$$
 #+reveal_html: </div>
 #+reveal_html: </div>
 
-* Huh???
+** Huh???
+#+reveal_html: <div style="font-size: 60%;">
 #+reveal_html: <div class="column" style="float:left; width: 50%">
 #+begin_export html
 <iframe
@@ -512,13 +513,301 @@ allowfullscreen>
 #+reveal_html: </div>
 
 #+reveal_html: <div class="column" style="float:right; width: 50%">
-bla bla
+Ja, det er bare formlen for afstanden mellem to punkter. :)
+
+#+attr_reveal: :frag (appear)
+Men, hvor er afstanden så *mindst*?
+#+attr_reveal: :frag (appear)
+Når $d'(t) = 0$.
+#+attr_reveal: :frag (appear)
+Vi tager det lige på tavlen.
 #+reveal_html: </div>
 
-* Areal mellem x-akse og banekurve
-* Kurvelængde langs banekurve
-* Skæring mellem banekurver
+** Opgave
+#+reveal_html: <div style="font-size: 60%;">
+Vektorfunktionen:
 
+$$\vec{r}(t) = \begin{pmatrix} e^t \\ t^2 + 2 \end{pmatrix} \,,\, \text{hvor } -2 \leq t \leq 2.$$
+
+1. Afbild banekurven for $\vec{r}(t)$ i intervallet $-2 \leq t \leq 2$ i et koordinatsystem.
+2. Beregn koordinaterne til de punkter, hvor $t=-2$, $t=1$ og $t=2$.
+3. Beregn afstanden mellem punkterne, hvor $t=-2$ og $t=2$.
+4. Opstil en funktionsforskrift $d(t)$ for afstanden mellem banekurven og /origo/ (0,0).
+5. Afbild grafen for $d(t)$.
+6. Beregn afstanden mellem $\vec{r}(t)$ og origo, når $t=2$.
+7. Beregn den mindste afstand mellem banekurven for $\vec{r}(t)$ og origo. Brug CAS.
+
+   
+* Area 51
+#+attr_html: :height 500px
+[[./img/area_51.png]]
+
+** Arealer
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/areal_under_kurve.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Arealet $T$ mellem x-aksen og de lodrette linjer ved $x(t_1)$ og $x(t_2)$ samt banekurven for vektorfunktionen
+
+$$\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$$
+
+er givet som
+
+$$\boxed{T= \int_{t_1}^{t_2} y(t) \cdot x'(t) \, dt\,,}$$
+
+hvor
+
+$$x(t_1) < x(t_2)$$
+
+og
+
+$$y(t)\cdot x'(t) > 0$$
+
+i intervallet
+
+$$[t_1;t_2]$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** But why??
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*Almindelig integration*
+
+$$T=\int_{x_1}^{x_2} f(x) \, dx$$
+
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Integration med vektorfunktioner*
+
+- $y(t)$ beskriver højden over x-aksen (fuldstændig ligesom $f(x)$)
+
+  $$T=\int_{x_1}^{x_2} y(t) \,dx$$
+
+- $\frac{d x}{dt} = x'(t) \to dx = x'(t) \cdot dt$
+
+  $$T=\int_{x_1}^{x_2} y(t) \cdot x'(t) \, dt$$
+- Til sidst skal grænserne ændres, så $x(t_1) = x_1$ og $x(t_2) = x_2$
+
+  $$T=\int_{t_1}^{t_2} y(t) \cdot x'(t) \, dt$$
+  
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Eksempel
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe
+width="600"
+height="400"
+src="./ggb/areal_under_kurve.html"
+title=""
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Vi har
+$$\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} t^2 \\ t^3-3t \end{pmatrix}$$
+
+- Vi skal finde arealet
+  $$T=\int_{t_1}^{t_2} y(t) \cdot x'(t) \, dt$$
+
+- Finder først grænserne $t_1$ og $t_2$
+  \begin{align*}
+  y(t) &= 0 \\
+  t^3-3t &= 0 \\
+  \left( t^2-3 \right)\cdot t &= 0 \\
+  t &= -\sqrt{3} \lor 0 \lor \sqrt{3}
+  \end{align*}
+- Fra geogebra ses det at $t_1= 0$ og $t_2 = -\sqrt{3}$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Eksempel
+#+reveal_html: <div style="font-size: 50%;">
+- Nu findes $x'(t)$
+  $$x'(t) = 2t$$
+- Integralet opskrives
+  \begin{align*}
+  T &= \int^{-\sqrt{3}}_0 \left( t^3-3t \right)\cdot 2t \,dt \\
+  T &= 2\cdot\int^{-\sqrt{3}}_0 t^4-3t^2  \,dt \\
+  T &= 2\cdot \left[ \frac{t^5}{5}-t^3 \right]^{-\sqrt{3}}_0 \\
+  T &= 2\cdot \left(\frac{\left(- \sqrt{3} \right)^5}{5} - \left(- \sqrt{3} \right)^3 \right)  - \left(\frac{0^5}{5}-0^3\right)   \\
+  T &= 4.16
+  \end{align*}
+
+  
+** Arbejd, arbejd
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/opgave_6_19.png][file:./img/opgave_6_19.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+På figuren ses banekurven for vektorfunktionen:
+$$\vec{r}(t) = \begin{pmatrix} \cos (t) \\ e^{\sin (t)} \end{pmatrix} \,, \, \text{hvor } 0 \leq t \leq 2 \pi$$
+
+1. Beregn koordinaterne til banekurvens skæringspunkter med y-aksen.
+2. Bestem vektorfunktionens differentialkvotient, $\vec{r'}(t)$.
+3. Beregn koordinaterne til tangentvektoren, når $t=1.75$.
+4. Beregn koordinaterne til de punkter, hvor der er lodrette og vandrette tangenter.
+5. Vis, at retningsvektoren $\vec{r}(t)$ og tangentvektoren $\vec{r'}(t)$ står vinkelret på hinanden, når $t=\frac{\pi}{2}$.
+6. Beregn arealet af det lukkede område, som banekurven danner.
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Are we there yet?
+[[./img/are_we_there_yet.gif]]
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+Eller, hvordan finder vi ud af, hvor langt vi har kørt?
+** Kurvelængde
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/kurvelaengde.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+For vektorfunktionen
+
+$$\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix}$$
+
+kan man finde længden *langs* banekurven vha:
+
+$$\boxed{L = \int_{t_1}^{t_2} \sqrt{x'(t)^2+y'(t)^2} \,dt}$$
+
+#+attr_reveal: :frag (appear)
+#+begin_quote
+Tænk: Længde er det samme som farten ganget med tiden, og det gør vi så bare rigtig mange gange.
+
+\begin{align*}
+L &= \sum \Delta L = \sum v_i \cdot \Delta t = \sum \sqrt{x_i'^2 + y_i'^2} \cdot \Delta t \\
+L &= \int_{t_1}^{t_2} \sqrt{x'(t)^2+y'(t)^2}\,dt
+\end{align*}
+#+end_quote
+
+#+reveal_html: </div>
+#+reveal_html: </div>
+** Opgave 6.22
+#+reveal_html: <div style="font-size: 60%;">
+
+En vektorfunktion:
+
+$$\vec{r}(t) = \begin{pmatrix} x(t) \\ y(t) \end{pmatrix} = \begin{pmatrix} t + 1 \\ t^2 + 1 \end{pmatrix}$$
+
+1. Afbild banekurven i et koordinatsystem.
+2. Beregn arealet mellem banekurven og x-aksen, som er afgrænset af linjerne $x = 1$ og $x = 2$.
+3. Find vektorfunktionens y-funktion, og beregn $\int_1^2 y\,dx$.
+
+Længden af et stykke af en banekurve kan beregnes ved formlen:
+
+$$L = \int_{t_1}^{t_2} \sqrt{x'(t)^2 + y'(t)^2 } dt \text{, hvor } t_2 > t_1$$
+
+4. [@4] Beregn længden af det stykke af banekurven, som er afgrænset af linjerne $x = 1$ og $x = 2$.
+
+
+* Skæring mellem banekurver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+[[./img/skaeringspunkter_eksempel.png][file:./img/skaeringspunkter_eksempel.png]]
+
+\begin{align*}
+\vec{p}(t_1) &=\begin{pmatrix} t_1^2-4 \\ e^{t_1+1} \end{pmatrix} \\
+\vec{q}(t_2) &=\begin{pmatrix} t_2-2 \\ e^{t_2} \end{pmatrix} 
+\end{align*}
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- $\vec{p}(t_1)$ er den røde
+- $\vec{q}(t_2)$ er den blå
+- Læg mærke til, at de to vektorfunktioner har hver deres parameter.
+
+#+begin_quote
+Hvor skærer de to banekurver hinanden?
+#+end_quote
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Opstilling af ligningssystem
+#+reveal_html: <div style="font-size: 60%;">
+Opstil 2 ligninger med 2 ubekendte.
+
+\begin{align*}
+\vec{p}(t_1) &= \vec{q}(t_2) \\
+\begin{pmatrix} t_1^2-4 \\ e^{t_1+1} \end{pmatrix} &= \begin{pmatrix} t_2-2 \\ e^{t_2} \end{pmatrix}\\
+t_1^2-4 &= t_2-2  \\
+t_1^2-2 &= t_2 \quad \text{ ligning  I} \\
+e^{t_1 +1} &= e^{t_2} \\
+t_1 + 1 &= t_2 \quad \text{ ligning II}
+\end{align*}
+** Løsning af ligningssystem
+#+reveal_html: <div style="font-size: 60%;">
+\begin{align*}
+t_1^2-2 &= t_2 \quad \text{ ligning  I} \\
+t_1 + 1 &= t_2 \quad \text{ ligning II}
+\end{align*}
+- Indsæt $t_2$ fra ligning II i ligning I
+  \begin{align*}
+  t_1^2-2 &= t_1 + 1 \\
+  t_1^2 - t_1 -3 &= 0
+  \end{align*}
+- 2.gradsligning som løses til
+  $$t_1 =-1.303\lor 2.303$$
+** Indsæt i vektorfunktion
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 50% auto;">
+#+reveal_html: <div>
+[[./img/skaeringspunkter_eksempel.png][file:./img/skaeringspunkter_eksempel.png]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+\begin{align*}
+\vec{p}(-1.303) &= \begin{pmatrix} \left( -1.303 \right)^2-4 \\ e^{\left( -1.303 \right)+1} \end{pmatrix} = \begin{pmatrix} -2.302 \\ 0.739 \end{pmatrix} \\
+\vec{p}(2.303) &= \begin{pmatrix} 2.303^2-4 \\ e^{2.303 +1} \end{pmatrix} = \begin{pmatrix} 1.304 \\ 27.194 \end{pmatrix}
+\end{align*}
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+attr_reveal: :frag (appear)
+#+begin_quote
+Men kolliderer de to vektorfunktioner på samme tid?
+#+end_quote
+#+attr_reveal: :frag (appear)
+- Tjek, ved at indsætte $t_1$​-værdierne i $\vec{q}(t_2)$ og se, om koordinaterne bliver det samme som for $\vec{p}(t_1)$.
+- (Det gør de ikke).
+* Gammel vin på nye flasker
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/gammel_vin.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Eller i hvert fald gamle eksamensopgaver til nye elever.
+
+#+attr_html: :height 300px
+[[./03_Gamle_eksamensopgaver/03_Gamle_eksamensopgaver.pdf][file:./img/gamle_eksamensopgaver.png]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+* Repetition
+#+attr_html: :height 500px
+[[./99_Repetition_af_vektorfunktioner/99_Repetition_af_vektorfunktioner.pdf][file:./img/repetitionsforside.png]]
 * TIVOLI!
 [[./img/tivoli.jpg]]
 
