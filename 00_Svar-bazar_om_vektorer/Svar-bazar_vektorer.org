@@ -61,7 +61,7 @@ $\phantom{a}$\\
 $\phantom{a}$\\
 #+end_export
 
-*Indtegn sumvektoren af $\vec{a}= \begin{pmatrix} 2\\3 \end{pmatrix}$ og $\vec{b}=\begin{pmatrix} -3 \\ 4 \end{pmatrix}$ vha vektorernes parallollogram*
+*Indtegn sumvektoren af $\vec{a}= \begin{pmatrix} 2\\3 \end{pmatrix}$ og $\vec{b}=\begin{pmatrix} -3 \\ 4 \end{pmatrix}$ vha vektorernes parallellogram*
 
 *Navn:*
 
