@@ -360,7 +360,7 @@ $$\vec{r}(t) = \begin{pmatrix} v_{0} \cdot \cos (\theta) \cdot t + x_0 \\ - \fra
 
 Hastigheden bliver
 
-$$\vec{v}(t) = \begin{pmatrix} v_0 \cdot \cos (\theta) \\ -g \cdot t + v_0 \cdot \cos (\theta) \end{pmatrix}$$
+$$\vec{v}(t) = \begin{pmatrix} v_0 \cdot \cos (\theta) \\ -g \cdot t + v_0 \cdot \sin (\theta) \end{pmatrix}$$
 
 mens accelerationen er
 
