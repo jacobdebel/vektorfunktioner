@@ -344,7 +344,7 @@ $$\left| \vec{v} (t) \right| = \sqrt{\left( x'(t) \right)^2+\left( y'(t) \right)
 #+reveal_html: <div>
 *Accelerationen* er da
 
-$$\vec{a}(t) = \frac{\vec{v}(t)}{dt} = \frac{d^2 \vec{r}(t)}{dt^2} =  \begin{pmatrix} x''(t) \\ y''(t) \end{pmatrix}$$
+$$\vec{a}(t) = \frac{d \vec{v}(t)}{dt} = \frac{d^2 \vec{r}(t)}{dt^2} =  \begin{pmatrix} x''(t) \\ y''(t) \end{pmatrix}$$
 
 med *størrelsen* af accelerationen er
 
