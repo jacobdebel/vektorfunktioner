@@ -304,7 +304,7 @@ $$\vec{r} (t) = \begin{pmatrix} 1- \cos (t) \\ 3 + \sin (t) \end{pmatrix} \,,\, 
 1. Beregn buens radius.
 2. Beregn koordinaterne til buens centrum.
 3. Beregn koordinaterne til buens endepunkter.
-4. Beregn koordinaterne til det punk, hvor $t=1.8$.
+4. Beregn koordinaterne til det punkt, hvor $t=1.8$.
 
 Et punkt på buen har koodinaterne $(x,y) = (0.733, y)$.
 
