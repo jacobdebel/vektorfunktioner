@@ -445,7 +445,7 @@ $$\vec{r}(t) = \begin{pmatrix} \cos (t) \\ e^{0.1 t}\end{pmatrix}\,,\, \text{hvo
 2. Beregn koordinaterne til banekurvens skæring med akserne i det anførte interval.
 3. Bestem de værdier af $t$, hvor der er lodrette tangenter.
 4. Bestem koordinaterne til de punkter, hvor der er lodrette tangenter.
-5. Beregn tangenthældningen i de punkter på kurven, hvor kurven skærer x- og y-aksen.
+5. Beregn tangenthældningen i de punkter på kurven, hvor kurven skærer y-aksen.
 6. Bestem de værdier af $t$, hvor tangenthældningen er 1. Brug CAS.
 7. Bestem koordinaterne til de punkter, hvor tangenthældningen er 1.
 * Sammensatte bevægelser
