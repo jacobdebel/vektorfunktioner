@@ -442,7 +442,7 @@ En banekurve er beskrevet ved vektorfunktionen:
 $$\vec{r}(t) = \begin{pmatrix} \cos (t) \\ e^{0.1 t}\end{pmatrix}\,,\, \text{hvor } 0 \leq t \leq 2 \pi$$
 
 1. Afbild banekurven.
-2. Beregn koordinaterne til bankeurvens skæring med akserne i det anførte interval.
+2. Beregn koordinaterne til banekurvens skæring med akserne i det anførte interval.
 3. Bestem de værdier af $t$, hvor der er lodrette tangenter.
 4. Bestem koordinaterne til de punkter, hvor der er lodrette tangenter.
 5. Beregn tangenthældningen i de punkter på kurven, hvor kurven skærer x- og y-aksen.
